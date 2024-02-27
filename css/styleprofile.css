@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #4b0082; /* Purple */
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #8a2be2; /* Blue Violet */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+#contact ul li {
+  color: #9400d3; /* Dark Violet */
+}
+
+#about h2,
+#expertise h2,
+#education h2,
+#projects h2,
+#contact h2,
+#experience h2 {
+  border-bottom: 2px solid #4b0082; /* Purple */
+  padding-bottom: 10px;
+}
+
+#projects ul,
+#experience ul {
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  /* padding: 20px 0; atas bawah 20  kiri kanan 0 */
+  /* atur padding dengan flex */
+  height: 45px;
+  align-items: center;
+  color: #af9087;
+}
+
+nav .logo {
+  font-family: "Srisakdi", cursive;
+  letter-spacing: 3px; /*space antar char*/
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+  transition: all 0.4s;
+}
+nav .logo {
+  font-family: "Srisakdi", cursive;
+  letter-spacing: 3px; /*space antar char*/
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 0.9rem;
+}
+
+nav ul li a:hover {
+  color: pink;
+}
+  /* hamburger menu */
+  .menu-toggle{
+    display: none; 
+    flex-direction: column;
+    height: 17px;
+    justify-content: space-between;
+    position: relative;
+ }
